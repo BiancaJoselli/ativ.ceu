@@ -84,10 +84,10 @@ section.experienced div h1 span{
 }
 
 section.experienced div p {
-    line-height: 2vw;
-    margin: 0 0 5vw 0;
+line-height: 1.4rem;    margin: 0 0 5vw 0;
     color: #5C5C5C;
-    
+    font-size: 0.8rem;
+
 }
 
 section.experienced div button {
@@ -179,7 +179,8 @@ section.lorem div.first h2 {
 section.lorem div.first p {
     color: #5C5C5C;
     padding: 0 29vw 10vw 29vw;
-    line-height: 1.6vw;
+line-height: 1.4rem;    font-size: 0.8rem;
+
 }
 
 section.lorem div.simply {
@@ -200,8 +201,7 @@ section.lorem div.simply h2 span {
 section.lorem div.simply p {
     color: #5C5C5C;
     font-size: 0.8rem;
-    line-height: 1.6vw;
-    padding: 2vw 7vw 5vw 8vw;
+line-height: 1.4rem;    padding: 2vw 7vw 5vw 8vw;
 }
 
 section.lorem div.simply img {
@@ -227,8 +227,7 @@ section.lorem div.dummy h2 span {
 section.lorem div.dummy p {
     color: #5C5C5C;
     font-size: 0.8rem;
-    line-height: 1.6vw;
-    padding: 2vw 7vw 10vw 8vw;
+line-height: 1.4rem;    padding: 2vw 7vw 10vw 8vw;
 }
 
 section.lorem div.dummy img {
@@ -238,13 +237,54 @@ section.lorem div.dummy img {
 section.kodex {
     display: flex;
     text-align: center;
+    margin: 5vw 8vw 5vw 8vw;
 
 }
 
-section.kodex div  h3{
+section.kodex div h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5vw 12vw 2vw 12vw;
+}
+
+section.kodex div p {
+    color: #5C5C5C;
+    padding: 0 8vw 2vw 8vw;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+section.kodex div button {
+    border: none;
+    background-color: #1090CB;
+    padding: 0.5vw 1.2vw;
+    border-radius: 8px;
+    color: white;
+    margin:  0 0 2vw 0;
     
+
 }
+
+section.kodex div.blue {
+    background-color: #1090CB;
+    border-radius: 20px;
+}
+
+section.kodex div.blue h3 {
+    color: white;
+}
+
+section.kodex div.blue p {
+    color: white;
+}
+
+section.kodex div.blue button {
+    color:#1090CB;
+    background-color: white;
+}
+
 
 /*======================
     formatação footer
 =======================*/
+
